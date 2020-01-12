@@ -1,0 +1,20 @@
+{
+    "language"        : "PYTHON",
+    "main-file"       : "svm.py",
+    "experiment-name" : "simple-svm-example-3",
+    "likelihood"      : "GAUSSIAN",
+    "variables" : {
+        "c" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 0.00000001,
+            "max"  : 10
+        },
+        "gamma" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 0.00000001,
+            "max"  : 10
+        }
+    }
+}
